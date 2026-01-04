@@ -1,0 +1,23 @@
+{
+  "name": "be-devgo",
+  "version": "1.0.0",
+  "description": "Backend DevGo Project Tracking",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["express", "mongodb", "backend", "devgo"],
+  "author": "Muhammad Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
